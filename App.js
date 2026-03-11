@@ -14,7 +14,13 @@ const Title = () => <h1 id="header">Welcome onBoard Crew</h1>;
 const HeadingComponent = () => {
   return (
     <div id="container">
+      {jsxHeading}
+      {console.log("add 100 + 250 = ", 100 + 250)}
+      {console.log("Title", Title)}
+      {console.log("Title", Title())}
       <Title />
+      <Title></Title>
+      {Title()}
       <h1>This is a react heading component.</h1>
     </div>
   );
