@@ -1,3 +1,61 @@
-#header {
-  color: red;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightpink;
+}
+
+.logo {
+  width: 120px;
+  margin-left: 50px;
+  padding: 10px;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.nav-items > ul {
+  display: flex;
+  list-style-type: none;
+  background-color: grey;
+}
+
+.nav-items > ul > li {
+  padding: 10px 50px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.body {
+  margin: 5px;
+}
+
+.search {
+  margin: 0px 20px;
+  padding: 10px;
+  border: 1px solid red;
+  width: 200px;
+}
+
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.restro-card {
+  width: 220px;
+  height: 330px;
+  padding: 5px;
+  margin: 10px 20px;
+}
+
+.restro-logo {
+  width: 100%;
 }
